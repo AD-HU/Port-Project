@@ -7,12 +7,19 @@
 }
 
 /*style*/
+
+.secondary-background {
+
+    background-color: #fff8fff3;
+}
+
 .text-primary {
     color: #FD6E0A;
 }
 
 .dark-2 {
     color: #474747;
+    font-weight: bold;
 }
 
 .btn-primary {
@@ -26,10 +33,15 @@
 }
 
 .section-title {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bold;
     color: #181818;
 
+}
+
+.sec-descrip {
+    font-size: 25px;
+    color: #757575;
 }
 
 /* Nav tools */
@@ -76,6 +88,7 @@ nav li a {
 .banner-grt {
     font-size: 40px;
     font-weight: 600;
+    margin: 0 5px 5px 0;
 }
 
 .banner-h1 {
@@ -88,7 +101,7 @@ nav li a {
 }
 
 .banner-des {
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 600;
 }
 
@@ -97,4 +110,28 @@ nav li a {
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+}
+
+/*About*/
+
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-des {
+    font-weight: 600;
+}
+
+/* main-style */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
 }
