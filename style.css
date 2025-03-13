@@ -36,12 +36,17 @@
     font-size: 35px;
     font-weight: bold;
     color: #181818;
-
 }
 
 .sec-descrip {
-    font-size: 25px;
+    font-size: 18px;
     color: #757575;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.text-centre {
+    text-align: center;
 }
 
 /* Nav tools */
@@ -118,13 +123,15 @@ nav li a {
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+
 
 }
-.about-items{
+
+.about-items {
     display: flex;
     justify-content: space-around;
 }
+
 .item-des {
     font-weight: 600;
 }
@@ -134,4 +141,22 @@ nav li a {
 main {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* Skills Contant */
+
+.skills-contant {
+    display: flex;
+    gap: 24px;
+}
+
+.skills {
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
 }
